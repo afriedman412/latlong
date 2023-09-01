@@ -84,3 +84,8 @@ h2 {
 input {
     width:230px;
 }
+
+.attribution {
+    font-size:85%;
+    margin-top:1.5em;
+}
