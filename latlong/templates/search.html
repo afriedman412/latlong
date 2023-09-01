@@ -1,0 +1,11 @@
+<section>
+<form action="/latlong" method="get">
+    <label for="query"><h2>>> Enter a location...</h2></label>
+    <input type="text" id="query" name="location">
+    <button type="submit">Search</button>
+</form>
+<form action="/latlong" method="POST" enctype="multipart/form-data">
+    <label for="query"><h2>>> Or drag and drop a file...</h2></label>
+    {% include "drop.html" %}
+</form>
+</section>

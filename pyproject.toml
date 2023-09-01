@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "latlong"
+version = "0.1.0"
+description = "A web app to give you the latitude and longitude for locations."
+authors = ["Andy Friedman <afriedman412@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+geopy = "^2.4.0"
+flask = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

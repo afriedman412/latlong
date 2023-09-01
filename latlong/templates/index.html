@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+    <title>LatLong</title>
+</head>
+<body>
+    <header>
+        <a href="/">
+            <h1>Latitude/Longitude</h1>
+        </a>
+    </header>
+    <div class="the-body">
+    {% include content_page %}
+    </div>
+</body>
+</html>
